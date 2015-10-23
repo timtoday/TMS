@@ -76,7 +76,7 @@
 
 
 
-## tms_use_menu
+## tms_role_menu
 > Descript...
 
 | Field      | Type             | Null | Key |
