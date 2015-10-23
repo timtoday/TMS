@@ -11,7 +11,21 @@
 | gender     | tinyint(2)       | NO   |     |
 | avatar_url | varchar(255)     | NO   |     |
 | password   | varchar(255)     | NO   |     |
-| group_id   | int(10   )       | NO   |     |
+| group_id   | int(10)          | NO   |     |
+| created_by | int(10)          | NO   |     |
+| created_at | timestamp        | NO   |     |
+| updated_at | timestamp        | NO   |     |
+
+ 
+## tms_user_groups
+> Descript...
+
+| Field      | Type             | Null | Key |
+| ---------- |:----------------:| ----:| ---:| 
+| id         | int(10) unsigned | NO   | PRI |
+| name       | varchar(100)     | NO   |     |
+| parent_id  | int(10)          | NO   |     |
+| created_by | int(10)          | NO   |     |
 | created_at | timestamp        | NO   |     |
 | updated_at | timestamp        | NO   |     |
 
