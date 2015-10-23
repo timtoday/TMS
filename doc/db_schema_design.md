@@ -74,4 +74,41 @@
 | created_at | timestamp        | NO   |     |
 | updated_at | timestamp        | NO   |     |
 
- 
+
+## tms_group_role
+> Descript...
+
+| Field      | Type             | Null | Key |
+| ---------- |:----------------:| ----:| ---:| 
+| id         | int(10) unsigned | NO   | PRI |
+| group_id   | int(10)          | NO   |     |
+| role_id    | int(10)          | NO   |     |
+| created_by | int(10)          | NO   |     |
+| created_at | timestamp        | NO   |     |
+| updated_at | timestamp        | NO   |     |
+
+## tms_role_menu
+> Descript...
+
+| Field      | Type             | Null | Key |
+| ---------- |:----------------:| ----:| ---:| 
+| id         | int(10) unsigned | NO   | PRI |
+| role_id    | int(10)          | NO   |     |
+| menu_id    | int(10)          | NO   |     |
+| created_by | int(10)          | NO   |     |
+| created_at | timestamp        | NO   |     |
+| updated_at | timestamp        | NO   |     |
+
+
+ ## tms_role_permission
+> Descript...
+
+| Field      | Type             | Null | Key |
+| ---------- |:----------------:| ----:| ---:| 
+| id         | int(10) unsigned | NO   | PRI |
+| group_id   | int(10)          | NO   |     |
+| role_id    | int(10)          | NO   |     |
+| created_by | int(10)          | NO   |     |
+| created_at | timestamp        | NO   |     |
+| updated_at | timestamp        | NO   |     |
+
