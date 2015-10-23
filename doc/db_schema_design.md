@@ -56,7 +56,6 @@
 | parent_id  | int(10)          | NO   |     |
 | actions    | varchar(255)     | NO   |     |
 | desc       | varchar(255)     | NO   |     |
-| order      |  int(10)         | NO   |     |
 | created_by | int(10)          | NO   |     |
 | created_at | timestamp        | NO   |     |
 | updated_at | timestamp        | NO   |     |
